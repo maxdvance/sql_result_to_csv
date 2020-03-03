@@ -11,3 +11,4 @@ sql_data.columns = mycursor.column_names
 mydb.close()
 
 sql_data.to_csv("table.csv",index = False)
+#If False do not print fields for index names.
